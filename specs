@@ -1,0 +1,34 @@
+------------CASE 0----------
+WHAT IT DOES: it identifies the first letter of a word
+
+INPUT: A
+INPUT STRING: A believable example.
+OUTPUT: 1
+
+------------CASE 1----------
+WHAT IT DOES: it subsequently identifies the remaining letters of the inout word and uses them to identifiy the same word.
+
+INPUT: example
+INPUT STRING: A believable example.
+OUTPUT: 1
+
+------------CASE 2----------
+WHAT IT DOES: it checks to make sure that the word that is given as output actually matches the word given in the input to the letter
+
+INPUT: exemplary
+INPUT STRING: a believable example.
+OUTPUT: Sorry, there are no matching words.
+
+------------CASE 3----------
+WHAT IT DOES: it takes any inapplicable answer and rejects it.
+
+INPUT:1npu7
+INPUT STRING: please input your answer.
+OUTPUT: Please input only words.
+
+------------CASE 4----------
+WHAT IT DOES: it looks for null inputs and rejects them
+
+INPUT: (none)
+INPUT STRING: The Quick Brown Fox is a great speedcore music artist
+OUTPUT: Please fill in both input boxes.

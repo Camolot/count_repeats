@@ -2,7 +2,7 @@
 WHAT IT DOES: it identifies the first letter of a word
 
 INPUT: A
-INPUT STRING: A believable example.
+INPUT STRING: A
 OUTPUT: 1
 
 ------------CASE 1----------
@@ -30,5 +30,5 @@ OUTPUT: Please input only words.
 WHAT IT DOES: it looks for null inputs and rejects them
 
 INPUT: (none)
-INPUT STRING: The Quick Brown Fox is a great speedcore music artist
+INPUT STRING: The Quick Brown Fox is a great music artist
 OUTPUT: Please fill in both input boxes.
